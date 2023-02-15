@@ -6,9 +6,6 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-
     <title>Inicio</title>
   </head>
   <body >
@@ -17,36 +14,48 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse nav-right" id="navbarNav">
-        <ul class="navbar-nav ">
+        <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Inicio</a>
+            <a class="nav-link" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="productos.html">Productos</a>
+            <a class="nav-link " href="productos.html">Productos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contacto.html">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="acercade.html">Acerca de</a>
-          </li>
+              <a class="nav-link active" href="acercade.html">Acerca de</a>
+            </li>
         </ul>
       </div>
     </nav>
-    
+
 
     <div class="container main-margin">
-    <div class="jumbotron text-center">
-      <h1 class="display-4">Bienvenidos</h1>
       <p class="lead">
-        ¡Bienvenidos a nuestra página sobre frutas exóticas! Si eres un amante de la gastronomía y te encanta probar sabores nuevos e interesantes, estás en el lugar adecuado.
-        En esta página encontrarás todo lo que necesitas saber sobre las frutas más exóticas del mundo y encontrarás sus orígenes.
-        Descubre frutas como la dragon fruit, la rambután, el maracuyá y muchas más. ¡Sigue leyendo y adéntrate en el fascinante mundo de las frutas exóticas!
-        <a href="productos.html" class="nav-link"><button class="btn nav-color btn-sm" >Ver más</button></a>
+        En esta pagina web para conseguir accesiblidad he intentado que las tipografias sean legibles para todo el mundo y los colores sean agradables, responsive es gracias a bootstrap,
+         los colores que he usado son un verde pastel el blanco y un gris oscuro, en productos he puesto un tamaño de imagenes con un tañano para que cualquier perona pueda verlas,
+          en contactos que hay un formulario he puesto placeholder para que cualquer persona comprenda lo que tiene que poner en es campo.
       </p>
+      <p>Lista de algunos de los elemtos de Bootstrap que he utilizado en este proyecto:</p>
+      <button id="mostrar-lista" class="btn nav-color">Mostrar lista</button>
+
+      <ul  class="list-group d-none py-3" id="mi-lista">
+        <li class="list-group-item  list-group-item-info">Nav-bar</li>
+        <li class="list-group-item  list-group-item-info">Buttons</li>
+        <li class="list-group-item  list-group-item-info">Jumbotron</li>
+        <li class="list-group-item  list-group-item-info">Cards</li>
+        <li class="list-group-item  list-group-item-info">Carrusel de imagenes</li>
+        <li class="list-group-item  list-group-item-info">Formularios</li>
+        <li class="list-group-item  list-group-item-info">Contenedores</li>
+        <li class="list-group-item  list-group-item-info">Formularios</li>
+      </ul>
+      
+      
     </div>
+
     
-  </div>
     <footer class="bg-dark py-1  fixed-bottom">
       <div class="container">
         <p class="text-white text-center">
@@ -59,6 +68,7 @@
     </footer>
     
 
+    <script src="js/main.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

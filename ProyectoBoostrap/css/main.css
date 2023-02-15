@@ -1,37 +1,22 @@
-.custom-body-color {
-    background-color: #70ad70;
-  }
-
-  .custom-nav-color {
-    background-color: #d3cbbf;
-  }
-
-  .carousel-item {
-    height: 100%;
-  }
-  
-  .carousel-item img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
- 
-
-.volver-index{
-    margin-left:  1.25rem;
-  }
-
 
 .nav-right{
-  margin-right: 0.3125rem;
+  margin-left: 0.3125rem;
 }
 
 
 .nav-color{
   background-color: #8bd38b;
+  color: #ffffff; 
 }
 
 .main-margin{
-  margin-top: 2rem ;
+  margin-top: 5rem ;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.list-group{
+  max-width: 200px;
 }
